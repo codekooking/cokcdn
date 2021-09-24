@@ -1,1 +1,170 @@
-.container-fluid .mgimg-block .mgimage{filter:blur(20px)}.container-fluid .mgimg-block,.image-container{position:relative}.container-fluid .mgimg-block:before{background-image:url(../assets/icons/lock.svg);content:"";height:20px;left:8px;position:absolute;top:8px;width:20px;z-index:1}.container-fluid .mgimg-block:after{background-image:url(../assets/icons/18.png);background-size:contain;content:"";height:30px;position:absolute;right:8px;top:8px;width:30px;z-index:1}.container-fluid .image-container:before{background-image:url(../assets/icons/play.png);background-repeat:no-repeat;background-size:contain;content:"";height:120px;left:calc(50% - 60px);position:absolute;top:calc(50% - 60px);width:120px;z-index:1}.container-fluid .image-container:after{background-size:contain;bottom:0;color:red;content:"Video XXX Full HD";font-size:18px;height:30px;left:0;line-height:30px;position:absolute;right:0;text-align:center;text-shadow:0 0 #000;z-index:1}
+/* Block image */
+.container-fluid .image-container .mgimage  {
+    filter: blur(20px) !important;
+}
+
+.image-container {
+    position: relative;
+}
+
+.container-fluid .mgimg-block {
+    position: relative;
+}
+
+.container-fluid .mcimg.mgimg-block::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/lock.svg');
+    background-size: contain;
+}
+.container-fluid .mcimg.mgimg-block::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/18.png');
+    background-size: contain;
+}
+.container-fluid .mcimg.mgimg-block .image-container::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 60px);
+    top: calc(50% - 60px);
+    z-index: 1;
+    width: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    background-image: url('../assets/icons/play.png');
+}
+.container-fluid .mcimg.mgimg-block .image-container::after {
+    content: 'Video XXX Full HD';
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+    color: red;
+    text-shadow: 0 0 black;
+    font-size: 18px;
+    background-size: contain;
+}
+
+/* Carolsel */
+.container-fluid .image-container.carousel .mcimg  {
+    filter: blur(20px);
+}
+.container-fluid .mcimg::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/lock.svg');
+}
+.container-fluid .mcimg::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/18.png');
+    background-size: contain;
+}
+.container-fluid .image-container.carousel::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 30px);
+    top: calc(50% - 80px);
+    z-index: 1;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-image: url('../assets/icons/play.png');
+}
+.container-fluid .image-container.carousel::after {
+    content: '1 Video XXX Full HD';
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    bottom: 100px;
+    text-align: center;
+    z-index: 1;
+    color: red;
+    text-shadow: 0 0 black;
+    font-size: 16px;
+    background-size: contain;
+}
+
+/* Feedblack */
+.container-fluid .image-container .mcimg  {
+    filter: blur(20px);
+}
+.container-fluid .image-gradient .mcimg::before {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/lock.svg');
+}
+.container-fluid .image-gradient .mcimg::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    background-image: url('../assets/icons/18.png');
+    background-size: contain;
+}
+
+.container-fluid .image-container .image-gradient::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 60px);
+    top: calc(50% - 90px);
+    z-index: 1;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-image: url('../assets/icons/play.png');
+}
+.container-fluid .image-container .image-gradient::after {
+    content: '2 Video XXX Full HD';
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    bottom: 70px;
+    text-align: center;
+    z-index: 1;
+    color: red;
+    text-shadow: 0 0 black;
+    font-size: 18px;
+    background-size: contain;
+}
+

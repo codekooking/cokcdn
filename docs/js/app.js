@@ -1842,6 +1842,23 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+$(window).load(function () {
+  setTimeout(function () {
+    // feedblack
+    $("div.mcimg div").each(function () {
+      if ($(this).hasClass("image-gradient")) {
+        $(this).parent().addClass("feedblack");
+      }
+    }); // carousel
+
+    $("div.mgcontainer div").each(function () {
+      if ($(this).hasClass("image-container")) {
+        $(this).addClass("carousel");
+      }
+    });
+  }, 3000);
+});
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
