@@ -168,3 +168,32 @@
     background-size: contain;
 }
 
+/* Under article */
+.container-fluid .image-container.under::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 25px);
+    top: calc(50% - 25px);
+    z-index: 1;
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    background-image: url('../assets/icons/play.png');
+}
+.container-fluid .image-container.under::after {
+    content: 'Video XXX Full HD';
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    bottom: 0;
+    text-align: center;
+    z-index: 1;
+    color: red;
+    text-shadow: 0 0 black;
+    font-size: 13px;
+    background-size: contain;
+}
+
