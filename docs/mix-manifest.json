@@ -1,7 +1,12 @@
 {
-    "/js/app.js": "/js/app.js?id=708c860e732d74482f7d",
-    "/css/vendor/style.css": "/css/vendor/style.css?id=2960b4dd9c88f22e3e87",
-    "/css/vendor/style-dark.css": "/css/vendor/style-dark.css?id=7d7e173d2f25c45d8600",
-    "/css/custom.css": "/css/custom.css?id=dc3d96f01d7f7f8ec7c4",
-    "/css/app.css": "/css/app.css?id=13ed1637e0740bbbf8c9"
+    "/js/app.js": "/js/app.js",
+    "/css/vendor/style.css": "/css/vendor/style.css",
+    "/css/media-card-top-right.css": "/css/media-card-top-right.css",
+    "/css/media-card-top-left.css": "/css/media-card-top-left.css",
+    "/css/media-card-center.css": "/css/media-card-center.css",
+    "/css/custom.css": "/css/custom.css",
+    "/css/app.css": "/css/app.css",
+    "/css/vendor/style-dark.css": "/css/vendor/style-dark.css",
+    "/css/media-card-bottom-right.css": "/css/media-card-bottom-right.css",
+    "/css/media-card-bottom-left.css": "/css/media-card-bottom-left.css"
 }

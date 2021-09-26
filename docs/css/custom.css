@@ -33,33 +33,6 @@
     background-image: url('../assets/icons/18.png');
     background-size: contain;
 }
-.container-fluid .mcimg.mgimg-block .image-container::before {
-    content: '';
-    position: absolute;
-    left: calc(50% - 60px);
-    top: calc(50% - 60px);
-    z-index: 1;
-    width: 120px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 120px;
-    background-image: url('../assets/icons/play.png');
-}
-.container-fluid .mcimg.mgimg-block .image-container::after {
-    content: 'Video XXX Full HD';
-    position: absolute;
-    right: 0;
-    left: 0;
-    height: 30px;
-    line-height: 30px;
-    bottom: 0;
-    text-align: center;
-    z-index: 1;
-    color: red;
-    text-shadow: 0 0 black;
-    font-size: 18px;
-    background-size: contain;
-}
 
 /* Carolsel */
 .container-fluid .image-container.carousel .mcimg  {
